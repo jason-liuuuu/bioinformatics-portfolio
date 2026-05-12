@@ -1,0 +1,6 @@
+@HD	VN:1.5	SO:unsorted	GO:query
+@SQ	SN:chr1	LN:183
+@PG	ID:bowtie2	PN:bowtie2	VN:2.5.4	CL:"/shared/EL9/explorer/bowtie2/2.5.4/src/bowtie2-2.5.4-linux-x86_64/bowtie2-align-s --wrapper basic-0 -x reference_index -f sequences.fasta -S alignment.sam"
+sequence1	0	chr1	123	1	11M	*	0	0	AGTCGTACGTA	IIIIIIIIIII	AS:i:0	XS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:11	YT:Z:UU
+sequence2	16	chr1	154	1	11M	*	0	0	TCGATCGATCG	IIIIIIIIIII	AS:i:0	XS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:11	YT:Z:UU
+sequence3	16	chr1	69	1	11M	*	0	0	AGCTAGCTAGC	IIIIIIIIIII	AS:i:0	XS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:11	YT:Z:UU
