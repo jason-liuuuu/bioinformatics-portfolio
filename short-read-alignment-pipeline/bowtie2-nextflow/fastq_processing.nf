@@ -1,6 +1,6 @@
 /*
  * Nextflow DSL2 pipeline for FASTQ quality trimming
- * Module 08 - Task I
+ * Task I
  */
 
 // Define the trimming process
