@@ -1,0 +1,6 @@
+@HD	VN:1.5	SO:unsorted	GO:query
+@SQ	SN:chr1	LN:183
+@PG	ID:bowtie2	PN:bowtie2	VN:2.5.4	CL:"/shared/EL9/explorer/bowtie2/2.5.4/src/bowtie2-2.5.4-linux-x86_64/bowtie2-align-s --wrapper basic-0 -x reference_index -S input.sam -U input.fastq"
+read1	0	chr1	1	1	29M	*	0	0	AGTCGTACGTAGCTAGCTAGCTAGCTAGC	QQQQQQQQQQQQQQQQQQQQQQQQQQQQQ	AS:i:0	XS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:29	YT:Z:UU
+read2	16	chr1	34	1	29M	*	0	0	GATCGATCGATCGATCGATCGATCGATCG	QQQQQQQQQQQQQQQQQQQQQQQQQQQQQ	AS:i:0	XS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:29	YT:Z:UU
+read3	16	chr1	94	1	29M	*	0	0	CTAGCTAGCTAGCTAGCTAGCTAGCTAGC	QQQQQQQQQQQQQQQQQQQQQQQQQQQQQ	AS:i:0	XS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:29	YT:Z:UU
