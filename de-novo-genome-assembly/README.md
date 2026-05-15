@@ -4,7 +4,6 @@ De novo assembly of paired-end Illumina reads from a simulated
 *Staphylococcus aureus* strain, with assembly quality evaluation using QUAST.
 Developed as part of BINF6310 at Northeastern University.
 
----
 
 ## Tools Used
 
@@ -13,7 +12,6 @@ Developed as part of BINF6310 at Northeastern University.
 - **Apptainer/Singularity**: containerized execution on HPC
 - **Slurm/srun**: HPC interactive session
 
----
 
 ## Structure
 
@@ -24,7 +22,6 @@ de-novo-genome-assembly/
     └── quast_report.txt
 ```
 
----
 
 ## Workflow
 
@@ -47,7 +44,6 @@ singularity exec -B "/scratch:/scratch,/courses:/courses" \
     quast.py -o quast_output spades_output/contigs.fasta
 ```
 
----
 
 ## Results
 
@@ -69,7 +65,6 @@ the assembly — indicating high contiguity with minimal fragmentation.
 
 Full QUAST report: `results/quast_report.txt`
 
----
 
 ## Notes
 
